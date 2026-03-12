@@ -1,0 +1,16 @@
+
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f4f6f8;color:#222}
+.container{width:1200px;margin:auto}
+header{background:#1f2933;color:white;padding:18px 0}
+.logo{font-weight:700;font-size:22px}
+nav a{color:white;margin-right:18px;text-decoration:none;font-size:14px}
+.hero{background:#e9eef3;padding:90px 0;text-align:center}
+.hero h1{font-size:36px;margin-bottom:20px}
+.btn{background:#ff6b00;color:white;padding:14px 28px;text-decoration:none;border-radius:4px;display:inline-block}
+section{padding:70px 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.card{background:white;padding:28px;border-radius:6px;box-shadow:0 3px 12px rgba(0,0,0,0.08)}
+footer{background:#1f2933;color:white;padding:40px;text-align:center;margin-top:60px}
+h2{margin-bottom:25px}
+.calc{background:white;padding:30px;border-radius:6px;max-width:500px;margin:auto}
+.calc input,.calc select{width:100%;padding:10px;margin-bottom:12px}
