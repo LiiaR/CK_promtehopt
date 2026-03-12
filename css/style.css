@@ -4,8 +4,39 @@ body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f4f6f8;color:#2
 header{background:#1f2933;color:white;padding:18px 0}
 .logo{font-weight:700;font-size:22px}
 nav a{color:white;margin-right:18px;text-decoration:none;font-size:14px}
-.hero{background:#e9eef3;padding:90px 0;text-align:center}
-.hero h1{font-size:36px;margin-bottom:20px}
+.hero{
+
+background-image:url('/images/hero.jpg');
+background-size:cover;
+background-position:center;
+padding:140px 0;
+text-align:center;
+color:white;
+position:relative;
+
+}
+
+.hero::before{
+
+content:'';
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.5);
+
+}
+
+.hero h1,
+.hero p,
+.hero a{
+
+position:relative;
+z-index:2;
+
+}
+
 .btn{background:#ff6b00;color:white;padding:14px 28px;text-decoration:none;border-radius:4px;display:inline-block}
 section{padding:70px 0}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
